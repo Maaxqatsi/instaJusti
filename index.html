@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>    tailwind.config = {      theme: {        extend: { gridTemplateColumns: {
+        
+        'auto-fill-100': 'repeat(auto-fill, minmax(100px, 1fr))',
+        'auto-fit-100': 'repeat(auto-fit, minmax(100px, 1fr))',
+        'auto-fit-240': 'repeat(auto-fit, minmax(240px, 1fr))'
+          },         colors: {            clifford: '#da373d',          }        }      }    }  </script>
+    
+
+    <script src="https://kit.fontawesome.com/f40d50b99d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div>
+    <div class="flex min-h-min content-center justify-between shadow-md border-b-orange-50">
+        <div class="flex content-center">
+        <img src="./img/insta2.jpg" alt="" class="rounded-full max-h-16 m-1 border-2 border-teal-400 border-dotted ">
+        <p class="self-center font-semibold text-lg">_Justiii</p>
+        <i class="fas fa-check-double self-center ml-1 text-teal-300"></i>
+        </div>
+        <button class="shadow-md shadow-teal-600 self-center p-2  pl-5 pr-5 pb-3 mr-4 bg-teal-500 text-gray-100 rounded-lg focus:border-4 border-green-300 flex-col max-h-6 flex justify-around text-sm font-semibold">Obserwuj</button>
+    </div>
+    <div class="grid grid-cols-auto-fit-100 grid-rows-2  gap-1 m-2">
+       <img class="aspect-square w-full rounded hover:scale-150 duration-100"src="./img/insta8.jpg"alt="">
+       <img class="aspect-square w-full rounded hover:scale-150 duration-100"src="./img/insta2.jpg"alt="">
+       <img class="aspect-square w-full rounded hover:scale-150 duration-100"src="./img/insta3.jpg"alt="">
+       <img class="aspect-square w-full rounded hover:scale-150 duration-100"src="./img/insta4.jpg"alt="">
+       <img class="aspect-square w-full rounded hover:scale-150 duration-100"src="./img/insta5.jpg"alt="">
+       <img class="aspect-square w-full rounded hover:scale-150 duration-100"src="./img/insta6.jpg"alt="">
+       <img class="aspect-square w-full rounded hover:scale-150 duration-100"src="./img/insta7.jpg"alt="">
+    </div>
+</flex>    
+</body>
+</html>
